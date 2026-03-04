@@ -58,6 +58,6 @@ class CashRegister:
     # Void Last Transaction
     # ----------------------------
     def void_last_transaction(self):
-        if self.previous_transactions:
-            last_transaction_amount = self.previous_transactions.pop()
-            self.total -= last_transaction_amount
+      if self.previous_transactions:
+        last_transaction_amount = self.previous_transactions.pop()
+        self.total -= last_transaction_amount
